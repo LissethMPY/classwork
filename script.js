@@ -1,8 +1,8 @@
 const servicios = {
-  railway: "https://lisrailway-production.up.railway.app",
-  vercel: "https://tu-app.vercel.app",
+  railway: "https://gregarious-luck-production.up.railway.app",
+  vercel: "https://vercel-ejemplo.vercel.app",
   heroku: "https://tu-app.herokuapp.com",
-  digitalocean: "https://tu-app.digitalocean.app",
+  digitalocean: "http://206.189.181.103/api/home",
 };
 
 function abrirServicio(nombre) {
