@@ -7,13 +7,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Prueba de conexión a servicios en la nube</h1>
+<header>
+  <h1>Practice Connecting to Cloud Services</h1>
+  <h2>Group #9</h2>
+  <ul class="integrantes">
+    <li>Lisseth Pacheco</li>
+    <li>Andrés Masapanta</li>
+    <li>Raúl Pazos</li>
+    <li>Katherine Cacuango</li>
+  </ul>
+</header>
 
-<button onclick="abrirServicio('railway')">Abrir Railway</button>
-<button onclick="abrirServicio('vercel')">Abrir Vercel</button>
-<button onclick="abrirServicio('heroku')">Abrir Heroku</button>
-<button onclick="abrirServicio('digitalocean')">Abrir DigitalOcean</button>
+  <div class="grupo">
+  <h2>PaaS</h2>
+  <button onclick="abrirServicio('railway')">Abrir Railway</button>
+  <button onclick="abrirServicio('vercel')">Abrir Vercel</button>
+  <button onclick="abrirServicio('heroku')">Abrir Heroku</button>
+  <button onclick="abrirServicio('digitalocean')">Abrir DigitalOcean</button>
+  </div>
 
+  <div class="grupo">
+  <h2>SaaS</h2>
+  <button onclick="abrirServicio('openai')">Abrir OpenAI</button>
+  <button onclick="abrirServicio('gmail')">Abrir Gmail</button>
+  </div>
 
   <div id="resultado"></div>
 
